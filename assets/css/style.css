@@ -26,6 +26,15 @@ h3:hover::after{
     width: 100%;
     transition: width 0.3s linear;
 }
+.Home{
+    background-color:#181c24 ;
+}
+.Certificate{
+    background-color:#181c24 ;
+}
+.Contact{
+    background-color:#181c24 ;
+}
 .headings{
     display: flex;
     justify-content: center;
@@ -41,12 +50,15 @@ h3:hover::after{
     border: 1.5px solid #fff;
     margin-top: 2rem;
     transition: .5s;
+    cursor: pointer;
 }
 .Home button:hover{
     background-color: white;
     border: 1.5px solid blue;
     color: blue;
     transition: .5s;
+    width: 8.5rem;
+    height: 3rem;
 }
 .social{
     margin-top: 2rem;
@@ -56,6 +68,7 @@ h3:hover::after{
     color: #fff;
     padding: 0 10px;
 }
+
 
 .Navbar{
     width: 100vw;
@@ -174,12 +187,15 @@ h3:hover::after{
     border: 1.5px solid #fff;
     margin-top: 2rem;
     transition: .5s;
+    cursor: pointer;
 }
 .about-part2 button:hover{
     background-color: white;
     border: 1.5px solid blue;
     color: blue;
     transition: .5s;
+    width: 8.5rem;
+    height: 3rem;
 }
 .certificate-desc{
     display: grid;
@@ -267,12 +283,15 @@ h3:hover::after{
     border: 1.5px solid #fff;
     transition: .5s;
     margin-bottom:4rem;
+    cursor: pointer;
 }
 .contact-desc button:hover{
     background-color: white;
     border: 1.5px solid blue;
     color: blue;
     transition: .5s;
+    width: 8.5rem;
+    height: 3rem;
 }
 .input-box input , .input-box textarea{
     width: 100%;
