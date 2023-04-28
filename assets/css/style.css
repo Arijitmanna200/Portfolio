@@ -1,0 +1,442 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#1f242d ;
+    color: white;
+    overflow-x: hidden;
+}
+h3{
+    width: fit-content;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    padding: 90px 0 90px 0;
+}
+h3::after{
+    content: "";
+    background-color: blue;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    display: block;
+}
+h3:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+}
+.Home button{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: 1.5px solid #fff;
+    margin-top: 2rem;
+    transition: .5s;
+}
+.Home button:hover{
+    background-color: white;
+    border: 1.5px solid blue;
+    color: blue;
+    transition: .5s;
+}
+.social{
+    margin-top: 2rem;
+    
+}
+.social-icon{
+    color: #fff;
+    padding: 0 10px;
+}
+
+.Navbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#242933 ;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+.nav-brand{
+    padding-left: 50px;
+    color: rgb(4, 110, 222);
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+.nav-link:hover{
+    color: #858585;
+    transition: .3s;
+}
+.nav-link::after{
+    content: "";
+    background-color: blue;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    display: block;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+.nav-item a.active{
+    color: blue;
+}
+.nav-item{
+    width: fit-content;
+    list-style-type: none;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-right: 50px;
+}
+.Navbar button{
+    position: absolute;
+    right: 44px;
+    top: 25px;
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+}
+.dev-img img{
+    width: 25vw;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    width: 100vw;
+    gap: 0 250px;
+}
+.Home strong{
+    color: rgb(4, 110, 222)
+}
+.home-part1{
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-family: 'Montserrat';
+    padding-top: 5rem;
+    padding-left: 50px;
+}
+.home-part1 h1{
+    font-size: 3rem;
+}
+.home-part1 h2{
+    font-size: 2.5rem;
+}
+.About-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 20px;
+}
+.about-part2{
+    width:70vw ;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Poppins';
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+.about-img{
+    padding-left: 100px;
+}
+.about-img img{
+    
+    width: 20vw;
+}
+.about-part2 button{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: 1.5px solid #fff;
+    margin-top: 2rem;
+    transition: .5s;
+}
+.about-part2 button:hover{
+    background-color: white;
+    border: 1.5px solid blue;
+    color: blue;
+    transition: .5s;
+}
+.certificate-desc{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.certificate-icon{
+    padding: 1rem 0;
+}
+.send-icon{
+    color: white;
+    padding-top: 4rem;
+}
+.certificate-box{
+    color: #fff;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    width: 17rem;
+    height: 18rem;
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(180, 180, 180, 0.25);
+}
+.certificate-box:hover{
+    width: 17.5rem;
+    height: 18.5rem;
+    background-color: rgb(4, 110, 222);
+    transition: 0.5s;
+}
+.certificate-box h5{
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+}
+.project-desc{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.project-box{
+    color: #fff;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    width: 17rem;
+    height: 18rem;
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(180, 180, 180, 0.25);
+}
+.project-box:hover{
+    width: 17.5rem;
+    height: 18.5rem;
+    background-color: rgb(4, 110, 222);
+    transition: 0.5s;
+}
+.project-box h4{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+.project-box h5{
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+}
+.contact-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input-box{
+    text-align: center;
+}
+.input-box input{
+    height: 50px;
+}
+.contact-desc button{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: 1.5px solid #fff;
+    transition: .5s;
+    margin-bottom:4rem;
+}
+.contact-desc button:hover{
+    background-color: white;
+    border: 1.5px solid blue;
+    color: blue;
+    transition: .5s;
+}
+.input-box input , .input-box textarea{
+    width: 100%;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    background-color: #333b4a;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border:1px solid white;
+    padding-left: 5px;
+}
+.copyRight h5{
+    width: fit-content;
+    font-size: 1rem;
+    color: #858585;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#242933 ;;
+}
+.Contact strong{
+    color:rgb(4, 110, 222) ;
+}
+#more{
+    display: none;
+}
+#read{
+    color: blue;
+    cursor: pointer;
+}
+.disable{
+    display: none;
+}
+@media(max-width:1060px){
+    .home-part1{
+        padding-top: 3rem;
+    }
+    h3{
+        padding: 90px 0 50px 0;
+    }
+    .hide{
+        display: none;
+    }
+    .Navbar{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        padding-left: 30px;
+        padding-top: 30px;
+
+    }
+    .nav-link{
+        font-size: 2rem;
+    }
+    .Navbar button{
+        display: block;
+    }
+    .Home{
+        flex-direction: column;
+    }
+    .dev-img{
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .dev-img img{
+        width: 70vw;
+    }
+    .About-desc{
+        flex-direction: column-reverse;
+    }
+    .about-img{
+        padding-left: 0;
+        text-align: center;
+    }
+    .about-img img{
+        width: 50vw;
+    }
+    .certificate-desc{
+        grid-template-columns: auto auto auto;
+    }
+    .project-desc{
+        grid-template-columns: auto auto auto;
+    }
+
+}
+@media(max-width:900px){
+    .certificate-box{
+        width: 13rem;
+    }
+    .certificate-box:hover{
+        width: 13.5rem;
+    }
+    .certificate-desc{
+        grid-template-columns: auto auto auto;
+    }
+    .project-desc{
+        grid-template-columns: auto auto auto;
+    }
+    .project-box{
+        width: 13rem;
+    }
+    .project-box:hover{
+        width: 13.5rem;
+    }
+}
+@media(max-width:710px){
+    .certificate-desc{
+        grid-template-columns: auto auto;
+    }
+    .project-desc{
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width:600px){
+    .home-part1 h1{
+        font-size: 2.5rem;
+    }
+    .home-part1 h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:500px){
+    .certificate-desc{
+        grid-template-columns: auto auto;
+    }
+    .certificate-box{
+        width: 10rem;
+        height: 14.5rem;
+    }
+    .certificate-box:hover{
+        width: 10.5rem;
+        height: 15rem;
+    }
+    .project-desc{
+        grid-template-columns: auto auto;
+    }
+    .project-box{
+        width: 10rem;
+        height: 14.5rem;
+    }
+    .project-box:hover{
+        width: 10.5rem;
+        height: 5rem;
+    }
+    .project-box h4{
+        font-size: 1rem;
+    }
+    .project-box h5{
+        font-size: .8rem;
+    }
+    .certificate-box h5{
+        font-family: 'Poppins';
+        font-size: .8rem;
+    }
+}
