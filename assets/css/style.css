@@ -427,7 +427,7 @@ h3:hover::after{
     }
     .project-box:hover{
         width: 10.5rem;
-        height: 5rem;
+        height: 15rem;
     }
     .project-box h4{
         font-size: 1rem;
