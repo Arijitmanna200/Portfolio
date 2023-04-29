@@ -12,8 +12,7 @@ h3{
     width: fit-content;
     font-family: 'Montserrat';
     font-size: 2rem;
-    padding-top: 90px;
-    margin-bottom: 50px;
+    padding: 100px 0 90px 0;
 }
 h3::after{
     content: "";
@@ -27,6 +26,7 @@ h3:hover::after{
     width: 100%;
     transition: width 0.3s linear;
 }
+
 .Home{
     background-color:#181c24 ;
 }
@@ -271,7 +271,7 @@ h3:hover::after{
     text-align: center;
 }
 .input-box input{
-    height: 50px;
+    height: 70px;
 }
 .contact-desc button{
     width: 8rem;
@@ -284,6 +284,7 @@ h3:hover::after{
     border: 1.5px solid #fff;
     transition: .5s;
     margin-bottom:4rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 .contact-desc button:hover{
@@ -300,7 +301,7 @@ h3:hover::after{
     font-family: 'Poppins';
     font-size: 1rem;
     background-color: #333b4a;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     border:1px solid white;
     padding-left: 5px;
