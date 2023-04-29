@@ -12,7 +12,8 @@ h3{
     width: fit-content;
     font-family: 'Montserrat';
     font-size: 2rem;
-    padding: 90px 0 90px 0;
+    padding-top: 90px;
+    margin-bottom: 50px;
 }
 h3::after{
     content: "";
@@ -316,7 +317,7 @@ h3:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#242933 ;;
+    background-color:#242933 ;
 }
 .Contact strong{
     color:rgb(4, 110, 222) ;
